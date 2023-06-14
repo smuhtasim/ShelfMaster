@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FrontEnd.RegistrationWindow">
+   <children>
+      <ComboBox fx:id="userType" layoutX="187.0" layoutY="210.0" prefHeight="31.0" prefWidth="227.0" />
+      <Label layoutX="117.0" layoutY="215.0" prefHeight="21.0" prefWidth="70.0" text="User Type" />
+      <TextField fx:id="name" layoutX="187.0" layoutY="85.0" prefHeight="31.0" prefWidth="227.0" />
+      <Text layoutX="139.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" />
+      <Button fx:id="registerButton" layoutX="242.0" layoutY="276.0" mnemonicParsing="false" onAction="#registerButtonOnAction" prefHeight="31.0" prefWidth="116.0" text="Register" />
+      <TextField fx:id="reply" layoutX="187.0" layoutY="307.0" prefHeight="85.0" prefWidth="227.0" style="-fx-border-color: white;">
+         <font>
+            <Font name="Calibri" size="15.0" />
+         </font></TextField>
+      <Text layoutX="121.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" />
+      <PasswordField fx:id="password" layoutX="187.0" layoutY="143.0" prefHeight="31.0" prefWidth="227.0" />
+   </children>
+</AnchorPane>
